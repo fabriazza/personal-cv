@@ -53,6 +53,15 @@ h2 {
     letter-spacing: 0.05rem;
 }
 
+h5 {
+    font-size: 0.9rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+    color: #888;
+}
+
 p {
     color: #888;
 }
@@ -73,6 +82,7 @@ button, button:active, button:focus, button::after, button::before {
 }
 
 header.mobile-header {
+    width: 100%;
     position: fixed;
     z-index: 2;
     background-color: $dark;
