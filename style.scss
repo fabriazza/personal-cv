@@ -62,7 +62,9 @@ p {
 }
 
 .accent-gradient {
-    color: linear-gradient(180deg,#cff82c,#a9ce14);
+    background: -webkit-linear-gradient(90deg, #202704 20%, #2b3504 20%, #d0fa2c 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 button, button:active, button:focus, button::after, button::before {
