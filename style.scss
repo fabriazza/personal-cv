@@ -1,6 +1,7 @@
 $dark: #0a0a0a;
 $white: #ffffff;
 $accent-color: #cff82c;
+$enable-negative-margins: true;
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -62,6 +63,10 @@ h6 {
     color: #888;
 }
 
+title {
+    align-self: flex-end;
+}
+
 p {
     color: #888;
 }
@@ -74,6 +79,10 @@ p {
     background: -webkit-linear-gradient(90deg, #202704 20%, #2b3504 20%, #d0fa2c 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.mb-n5 {
+    margin-bottom: -15rem;
 }
 
 button, button:active, button:focus, button::after, button::before {
@@ -192,6 +201,12 @@ header.desktop-header {
 
     .main {
         padding-left: 0;
+    }
+    #experience {
+        height: 120vh;
+    }
+    .mb-n5{
+        margin-bottom: -4rem;
     }
 }
 
