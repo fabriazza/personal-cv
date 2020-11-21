@@ -5,7 +5,7 @@ function closeMenu() {
     var hamburger = document.getElementById("hamburger");
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 
-    if (vw <= 768) {
+    if (vw <= 800) {
         desktopHeader.classList.toggle("d-none");
         mobileHeader.classList.toggle("open");
         main.classList.toggle("open");
