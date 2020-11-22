@@ -65,6 +65,32 @@ p {
   color: #888;
 }
 
+.contact-link li a {
+  color: #ffffff;
+  transition: all 200ms linear;
+  text-decoration: none;
+}
+.contact-link li a:hover {
+  color: #cff82c;
+}
+
+.list-group-contact {
+  display: flex;
+  padding-left: 2rem;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+.list-group-contact li {
+  margin-right: 12px;
+}
+.list-group-contact li a {
+  color: #ffffff;
+  transition: all 200ms linear;
+}
+.list-group-contact li a:hover {
+  color: #cff82c;
+}
+
 .accent-color {
   color: #cff82c;
 }

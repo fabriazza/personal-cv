@@ -74,6 +74,36 @@ p {
     color: #888;
 }
 
+.contact-link li {
+    a {
+    color: $white;
+    transition: all 200ms linear;
+    text-decoration: none;
+    }
+    a:hover {
+        color: $accent-color;
+    }
+}
+
+.list-group-contact {
+    display: flex;
+    padding-left: 2rem;
+    margin-bottom: 0;
+    border-radius: .25rem;
+
+    li {
+        margin-right: 12px;
+
+        a {
+            color: $white;
+            transition: all 200ms linear;
+        }
+        a:hover {
+            color: $accent-color;
+        }
+    }
+}
+
 .accent-color {
     color: $accent-color;
 }
