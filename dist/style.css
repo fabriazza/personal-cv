@@ -175,6 +175,20 @@ header.desktop-header .footer p {
   transform: translateX(240px);
 }
 
+.modal-content {
+  background-color: #292929;
+}
+.modal-content .modal-header {
+  border-bottom: 1px solid #cff82c;
+}
+.modal-content .modal-header button {
+  background-color: #292929;
+}
+.modal-content .modal-header button span {
+  color: #cff82c;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .main {
     padding-left: 0;
