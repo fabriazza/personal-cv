@@ -33,6 +33,10 @@ body {
   height: 100vh;
 }
 
+#work img {
+  cursor: pointer;
+}
+
 .section {
   margin-top: 10rem;
   margin-bottom: 10rem;
