@@ -29,8 +29,20 @@ body {
   padding-left: 13%;
 }
 
-.section {
+#home {
   height: 100vh;
+}
+
+#work img {
+  cursor: pointer;
+}
+
+.section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  scroll-margin-top: 4em;
 }
 
 h1 {
@@ -56,6 +68,32 @@ h6 {
 
 p {
   color: #888;
+}
+
+.contact-link li a {
+  color: #ffffff;
+  transition: all 200ms linear;
+  text-decoration: none;
+}
+.contact-link li a:hover {
+  color: #cff82c;
+}
+
+.list-group-contact {
+  display: flex;
+  padding-left: 2rem;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+.list-group-contact li {
+  margin-right: 12px;
+}
+.list-group-contact li a {
+  color: #ffffff;
+  transition: all 200ms linear;
+}
+.list-group-contact li a:hover {
+  color: #cff82c;
 }
 
 .accent-color {
@@ -168,9 +206,31 @@ header.desktop-header .footer p {
   transform: translateX(240px);
 }
 
+.modal-content {
+  background-color: #292929;
+}
+.modal-content .modal-header {
+  border-bottom: 1px solid #cff82c;
+}
+.modal-content .modal-header button {
+  background-color: #292929;
+}
+.modal-content .modal-header button span {
+  color: #cff82c;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .main {
     padding-left: 0;
+  }
+
+  .section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    scroll-margin-top: 12em;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
